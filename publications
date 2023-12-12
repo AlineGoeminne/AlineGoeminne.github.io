@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+
+  <meta charset="utf-8">
+
+  <title> Aline Goeminne </title>
+
+</head>
+
+
+    <body>
+
+      
+  
+
+
+
+             <div class="first-layer">
+
+              <nav>
+
+                <table>
+                  <tr> 
+                    <td><div ><a href="index.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true">  </i></a> </div></td>
+                     <td><ul>
+      <li><a href="index.html#Summary"> Summary </a></li>
+      <li><a href="index.html#Publications"> Publications </a></li>
+      <li><a href="index.html#Attended"> Attended events and talks </a></li>
+      <li><a href="index.html#Teaching"> Teaching </a></li>
+    <ul> </td>
+                 </tr>
+                </table>
+    
+  </nav>
+
+<div class="section"> <!-- debut autour h1-->
+  <h1 id="Publications"><i class="far fa-newspaper"></i> Publications</h1>
+  <div class="sub-section"> <!-- debut dans h1-->
+
+                      <h2> Preprints </h2>
+          <ul  style="list-style-type:bullet">  
+                      <li> <b> Multi-Weighted Reachability Games</b>: Thomas Brihaye and Aline Goeminne. to appear in <i>RP'23.</i> [<a href ="https://arxiv.org/abs/2308.09625" target="_blank">Preprint on arXiv</a>]
+          <span class="abstract-link" align="right" onclick="abstract('MultiWeightedGames')">[Abstract].</span>
+          <div class="abstract" id="MultiWeightedGames" style="display: none;">
+       <p align="justify">
+         We study two-player multi-weighted reachability games played on a finite directed graph,
+         where an agent, called P1, has several quantitative reachability objectives that he wants
+         to optimize against an antagonistic environment, called P2. In this setting, we ask what
+         cost profiles P1 can ensure regardless of the opponent's behavior. Cost profiles are compared
+         thanks to: (i) a lexicographic order that ensures the unicity of an upper value and
+         (ii) a componentwise order for which we consider the Pareto frontier. We synthesize
+         (i) lexico-optimal strategies and (ii) Pareto-optimal strategies. The strategies are obtained
+         thanks to a fixpoint algorithm which also computes the upper value in polynomial time and the
+         Pareto frontier in exponential time. Finally, the constrained existence problem is proved in P
+         for the lexicographic order and PSPACE-complete for the componentwise order.
+      </p> </div>
+          </li>
+          </ul>       
+          
+
+                     <h2> Conferences </h2>
+        
+                    <ul  style="list-style-type:bullet">
+          
+             <!-- paper: FORMATS22 -->
+         <li> <b> Non-Blind Strategies in Timed Network Congestion Games</b>: Aline Goeminne, Nicolas Markey and Ocan Sankur, <i>FORMATS'22.</i>
+          [<a href ="https://arxiv.org/abs/2207.01537" target="_blank">Preprint on arXiv</a>] <span class="abstract-link" align="right" onclick="abstract('TimedNetworkCongestion')">[Abstract].</span>
+          <div class="abstract" id="TimedNetworkCongestion" style="display: none;">
+       <p align="justify">
+         Network congestion games are a convenient model for reasoning about routing problems in a network: agents have to move from a source to a target vertex while avoiding congestion,
+         measured as a cost depending on the number of players using the same link.
+         Network congestion games have been extensively studied over the last 40 years, while their extension with timing constraints were considered more recently.
+         Most of the results on network congestion games consider blind strategies: they are static, and do not adapt to the strategies selected by the other players.
+         We extend the recent results of [Bertrand et al., Dynamic network congestion games. FSTTCS'20] to timed network congestion games, in which the availability of the edges depend on (discrete) time.
+         We prove that computing Nash equilibria satisfying some constraint on the total cost (and in particular, computing the best and worst Nash equilibria), and computing the social optimum, can be achieved in exponential space.
+         The social optimum can be computed in polynomial space if all players have the same source and target. 
+      </p>
+          </div>
+          </li>
+
+
+                   
+
+                   <!-- paper: FORMATS20 -->
+
+
+                     <li><b> On Subgame Perfect Equilibria in Turn-Based Reachability Timed Games</b>:Thomas Brihaye and Aline Goeminne, <i>FORMATS'20.</i> [<a href ="https://arxiv.org/abs/2006.10491" target="_blank">Preprint on arXiv</a>] <span class="abstract-link" align="right" onclick="abstract('SPEtimed')">[Abstract].</span>
+          <div class="abstract" id="SPEtimed" style="display: none;">
+            <p align="justify">
+               We study multiplayer turn-based timed games with reachability objectives. In particular, we are interested in the notion of subgame perfect equilibrium (SPE). We prove that deciding the constrained existence of an SPE in this setting is EXPTIME-complete.   </p>
+          </div>
+        </li>
+
+
+                   <!-- paper: rp2019 -->
+        <li>
+          <b>On Relevant Equilibria in Reachability Games</b>: Thomas Brihaye, Véronique Bruyère, Aline Goeminne and Nathan Thomasset, <i>RP'19</i>. [<a href ="https://arxiv.org/abs/1907.05481" target="_blank">Extended version on arXiv</a>]
+          <span class="abstract-link" align="right" onclick="abstract('rp2019')">[Abstract].</span>
+          <div class="abstract" id="rp2019" style="display: none;">
+            <p align="justify">
+              We study multiplayer reachability games played on a finite directed graph equipped with target sets, one for each player. In those reachability games, it is known that there always exists a Nash equilibrium (NE) and a subgame perfect equilibrium (SPE). But sometimes several equilibria may coexist such that in one equilibrium no player reaches his target set whereas in another one several players reach it. It is thus very natural to identify ``relevant'' equilibria. In this paper, we consider different notions of relevant equilibria including Pareto optimal equilibria and equilibria with  high social welfare. We provide complexity results for various related decision problems.           </p>
+          </div>
+        </li>
+
+        <!-- paper: concur2019 -->
+        <li>
+            <b>The Complexity of Subgame Perfect Equilibria in Quantitative Reachability Games</b>: Thomas Brihaye, Véronique Bruyère, Aline Goeminne, Jean-François Raskin and Marie van den Bogaard, <i>CONCUR'19</i>, [<a href ="http://arxiv.org/abs/1905.00784" target="_blank">Extended version on arXiv</a>] <span class="abstract-link"  onclick="abstract('concur2019')">[Abstract].</span>
+          <div class="abstract" id="concur2019" style="display: none;">
+            <p align="justify">
+              We study multiplayer quantitative reachability games played on a finite directed graph, where the objective of each player is to reach his target set of vertices as quickly as possible. Instead of the well-known notion of Nash equilibrium (NE), we focus on the notion of subgame perfect equilibrium (SPE), a refinement of NE well-suited in the framework of games played on graphs. It is known that there always exists an SPE in quantitative reachability games and that the constrained existence problem is decidable. We here prove that this problem is PSPACE-complete. To obtain this result, we propose a new algorithm that iteratively builds a set of constraints characterizing the set of SPE outcomes in quantitative reachability games. This set of constraints is obtained by iterating an operator that reinforces the constraints up to obtaining a fixpoint. With this fixpoint, the set of SPE outcomes can be represented by a finite graph of size at most exponential. A careful inspection of the computation allows us to establish PSPACE membership.
+            </p>
+          </div>
+        </li>
+
+        <!-- paper: gandalf2018 -->
+        <li>
+          <b>Constrained Existence Problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives</b>: Thomas Brihaye, Véronique Bruyère, Aline Goeminne and Jean-François Raskin,<i> GandALF'18 </i>[<a href="https://arxiv.org/abs/1806.05544" target="_blank">Extended version on arXiv</a>]
+         <span class="abstract-link" align="right" onclick="abstract('gandalf18')">[Abstract].</span>
+
+          <div class="abstract" id="gandalf18" style="display: none;">
+            <p align="justify">
+
+              We study multiplayer turn-based games played on a finite directed graph such that each player aims at satisfying an omega-regular Boolean objective. Instead of the well-known notions of Nash equilibrium (NE) and subgame perfect equilibrium (SPE), we focus on the recent notion of weak subgame perfect equilibrium (weak SPE), a refinement of SPE. In this setting, players who deviate can only use the subclass of strategies that differ from the original one on a finite number of histories. We are interested in the constrained existence problem for weak SPEs. We provide a complete characterization of the computational complexity of this problem: it is P-complete for Explicit Muller objectives, NP-complete for Co-Büchi, Parity, Muller, Rabin, and Streett objectives, and PSPACE-complete for Reachability and Safety objectives (we only prove NP-membership for Büchi objectives). We also show that the constrained existence problem is fixed parameter tractable and is polynomial when the number of players is fixed. All these results are based on a fine analysis of a fixpoint algorithm that computes the set of possible payoff profiles underlying weak SPEs.
+            </p>
+          </div>
+        </li>
+                    </ul>
+
+                     <h2> Journals </h2>
+        
+                    <ul  style="list-style-type:bullet">
+
+                        <li><b>[Special issue] Constrained Existence Problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives</b>: Thomas Brihaye, Véronique Bruyère, Aline Goeminne and Jean-François Raskin,<i> Information and Computation, 2021, vol. 278, p. 104594. </i> </li>
+
+                        <li><b>[Special issue] On Relevant Equilibria in Reachability Games</b>: Thomas Brihaye, Véronique Bruyère, Aline Goeminne and Nathan Thomasset, <i> Journal of Computer and System Sciences, 2021, vol. 119, p. 211-230</i>. </li>
+
+                        <li><b> Constrained Existence of weak Subgame Perfect Equilibria in Multiplayer Büchi games</b>: Aline Goeminne, <i> Information Processing Letters Volume 163, November 2020.</i>
+                        <span class="abstract-link" align="right" onclick="abstract('buchi')">[Abstract].</span>
+          <div class="abstract" id="buchi" style="display: none;">
+            <p align="justify">
+               We study multiplayer turn-based games played on a finite directed graph and such that each player has a Büchi objective, i.e., each player is equipped with a subset of vertices of the graph that he wants to reach infinitely often. Instead of studying the well known notions of Nash equilibrium (NE) and subgame perfect equilibrium (SPE), we focus on the notion of weak subgame equilibrium (weak SPE). In this setting, players who deviate can only use the subclass of strategies that differ from the original one on a finite number of histories. We are interesting in a decision problem called the constrained existence problem that we prove to be P-complete for multiplayer games with Büchi objectives.    </p>
+          </div>
+        </li>      
+
+        <li><b>[Special issue] The Complexity of Subgame Perfect Equilibria in Quantitative Reachability Games</b>: Thomas Brihaye, Véronique Bruyère, Aline Goeminne, Jean-François Raskin and Marie van den Bogaard, <i> Logical Methods in Computer Science, 16, 4, 8:1-8:43 (2020). </i> </li>
+
+
+
+                    </ul>
+
+         </div> <!-- fin dans h1 -->
+     </div>  <!-- fin autour h1--> 
+
+              
+
+
+                
+      </div>
+
+    </body>
+</html>
