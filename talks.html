@@ -1,5 +1,6 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 <head>
 
   <link type="text/css" rel="stylesheet" href="style.css">
@@ -12,7 +13,7 @@
 </head>
 
   <script>
-    
+
     function abstract(paper) {
       e = document.getElementById(paper)
       if(e.style.display == "block")
@@ -22,158 +23,136 @@
     }
   </script>
 
-    <body>
+<body>
 
-      
-  
+    <div class="first-layer">
 
-
-
-             <div class="first-layer">
-
-              <nav>
-
-                <table>
-                  <tr> 
-                    <td><div ><a href="index.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true">  </i></a> </div></td>
-                     <td><ul>
-      <li><a href="index.html#Summary"> Summary </a></li>
-      <li><a href="index.html#Publications"> Publications and talks </a></li>
-      <li><a href="index.html#Attended"> Attended events</a></li>
-      <li><a href="index.html#Teaching"> Teaching </a></li>
-    <ul> </td>
-                 </tr>
-                </table>
-    
-  </nav>
-
-              
-
-
-                <h2 class="section-title"><i class="fa fa-volume-up"></i> Talks</h2>
-        
-                    <div class="item">
-                      <b> 2025 </b>
-                        <ul style="list-style-type:bullet">                    
-                          <li><b>Permissive Equilibria in Multiplayer Reachability Games</b>, CFV seminars, ULB, Bruxelles, Belgium.</li>
-                          <li><b>A stroll with multiplayer reachability games</b>, InFormel seminars, LMF, Paris, France.</li>
-                          <li><b>Permissive Equilibria in Multiplayer Reachability Games</b>, CSL'25, Amsterdam, The Netherlands. [<a href="resources/CSL25.pdf">Slides</a>]</li> 
+        <nav>
+            <table>
+                <tr>
+                      <td><div><a href="index.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true">  </i></a> </div></td>
+                      <td>
+                        <ul>
+                            <li><a href="index.html#Home"> Home </a></li>
+                            <li><a href="publications.html"> Publications </a></li>
+                            <li><a href="talks.html"> Talks </a></li>
+                            <li><a href="teaching.html"> Teaching </a></li>
+                            <li><a href="cv.html"> CV </a></li>
                         </ul>
-                      <b> 2024 </b>
-                      <ul style="list-style-type:bullet">
-                        <li><b>Permissive Equilibria in Multiplayer Reachability Games</b>, Highlights'24, Bordeaux, France. [<a href="resources/Highlights24.pdf">Slides</a>]</li> 
+                      </td>
+
+                </tr>
+            </table>
+        </nav>
+
+
+        <h1 class="section-title"> Talks</h1>
+
+            <div class="item">
+                <b> 2025 </b>
+                    <ul style="list-style-type:bullet">
+                        <li><b>A stroll with multiplayer games</b>, GT-BD seminar, LIGM, Champs-sur-Marne, France (online).</li>
+                        <li><b>On Reachability Games Played on Graphs</b>, INOCS seminar, Cristal, Lille, France.</li>
+                        <li><b>On Multiplayer Reachability Games</b>, VeriDis seminar, Loria, Nancy, France.</li>
+                        <li><b>Permissive Equilibria in Multiplayer Reachability Games</b>, CFV seminars, ULB, Bruxelles, Belgium.</li>
+                        <li><b>A stroll with multiplayer reachability games</b>, InFormel seminars, LMF, Paris, France.</li>
+                        <li><b>Permissive Equilibria in Multiplayer Reachability Games</b>, CSL'25, Amsterdam, The Netherlands. [<a href="resources/CSL25.pdf">Slides</a>]</li>
+                    </ul>
+                <b> 2024 </b>
+                    <ul style="list-style-type:bullet">
+                        <li><b>Permissive Equilibria in Multiplayer Reachability Games</b>, Highlights'24, Bordeaux, France. [<a href="resources/Highlights24.pdf">Slides</a>]</li>
                         <li><b>Reachability Games Played on Graphs</b>, CETIC, Charleroi, Belgium.</li>
                         <li><b>Environment-Resistant Subgame Perfect Equilibria (and their links to permissive SPEs)</b> [ongoing work], UMONS Formal Methods Reading Group, Mons, Belgium.</li>
-                      </ul>
-                      <b> 2023 </b>
-                      <ul style="list-style-type:bullet">
-                        <li><b>Multi-weighted Reachability Games</b>, RP'23, Nice, France. [<a href="resources/RP23.pdf">Slides</a>]</li>  
-                        <li><b>A stroll with reachability games</b>, MoVe seminars, Marseille, France. [<a href="resources/MOVE23.pdf">Slides</a>]</li>  
+                    </ul>
+                <b> 2023 </b>
+                    <ul style="list-style-type:bullet">
+                        <li><b>Multi-weighted Reachability Games</b>, RP'23, Nice, France. [<a href="resources/RP23.pdf">Slides</a>]</li>
+                        <li><b>A stroll with reachability games</b>, MoVe seminars, Marseille, France. [<a href="resources/MOVE23.pdf">Slides</a>]</li>
                         <li> <b> Multi-Weighted Reachability Games</b>, Highlights'23, Kassel, Germany. [<a href="resources/Highlights23.pdf">Slides</a>].</li>
                         <li><b>Multi-Weighted Reachability Games</b>, UMONS Formal Methods Reading Group, Mons, Belgium.</li>
-                      </ul>
-                      
-                      <b> 2022 </b>
-                      <ul style="list-style-type:bullet">
-                        <li><b>On the permissiveness of multi-strategies </b>,  <span class="abstract-link" align="right" onclick="abstract('readingGroup22')">[based on the reading of articles]</span>, UMONS Formal Methods Reading Group, Mons, Belgium.</li>
-          <div class="abstract" id="readingGroup22" style="display: none;">
-       <p align="justify">
-         Mainly based on: 
-         <ul style="list-style-type:bullet">
-           <li>[BJW02]: Permissive strategies: from parity games to safety games, Julien Bernet, David Janin and Igor Walukiewicz.</li>
-           <li>[BDMR09]: Measuring Permissivity in Finite Games, Patricia Bouyer, Marie Duflot, Nicolas Markey and Gabriel Renault.</li>
-         </ul>
-      </p> </div>
+                    </ul>
+
+                <b> 2022 </b>
+                    <ul style="list-style-type:bullet">
+                        <li><b>On the permissiveness of multi-strategies</b>,  <span class="abstract-link"  onclick="abstract('readingGroup22')">[based on the reading of articles]</span>, UMONS Formal Methods Reading Group, Mons, Belgium.
+                            <div class="abstract" id="readingGroup22" style="display: none;">
+                                Mainly based on:
+                                    <ul style="list-style-type:bullet">
+                                        <li>[BJW02]: Permissive strategies: from parity games to safety games, Julien Bernet, David Janin and Igor Walukiewicz.</li>
+                                        <li>[BDMR09]: Measuring Permissivity in Finite Games, Patricia Bouyer, Marie Duflot, Nicolas Markey and Gabriel Renault.</li>
+                                    </ul>
+
+                            </div></li>
                         <li> <b> Non-Blind Strategies in Timed Network Congestion Games</b> - FORMATS'22, Online. [<a href="resources/FORMATS22.pdf">Slides</a>]</li>
                         <li><b>Timed Network Congestion Games</b>, ANR Ticktac meeting, Online.</li>
                         <li><b>Timed Network Congestion Games</b>,UMONS Formal Methods Reading Group, Online. </li>
-                      </ul>
+                    </ul>
 
-                      <b> 2021 </b>
-                      <ul style="list-style-type:bullet">
+                <b> 2021 </b>
+                    <ul style="list-style-type:bullet">
                         <li> <b> [Invited talk] On Subgame Perfect Equilibria in Turn-Based Reachability Timed Games</b> - FORMATS'21, Online. [<a href="resources/FORMATS21.pdf">Slides</a>]</li>
-                      </ul>
+                    </ul>
 
-                      <b> 2020 </b>
-                      <ul style="list-style-type:bullet">
+                <b> 2020 </b>
+                    <ul style="list-style-type:bullet">
                         <li> <b>On Subgame Perfect Equilibria in Turn-Based Reachability Timed Games</b> - FORMATS'20, Online. </li>
                         <li> <b>On Relevant Equilibria in Reachability Games</b> - "68NQRT", Rennes, France. </li>
-
-                      </ul>
-
-
-                      <b> 2019 </b>
-                      <ul style="list-style-type:bullet">
+                    </ul>
+                <b> 2019 </b>
+                    <ul style="list-style-type:bullet">
                         <li> <b>Multiplayer reachability games played on graphs</b> - Grascomp Doctoral Day (GDD’19), Namur, Belgium. </li>
                         <li> <b>On Relevant Equilibria in Reachability Games</b> - Highlights'19, Warsaw, Poland.</li>
                         <li> <b>On Relevant Equilibria in Reachability Games</b> - RP'19, Bruxelles, Belgium. [<a href="resources/RP19.pdf">Slides</a>]</li>
                         <li> <b>The Complexity of Subgame Perfect Equilibria in Quantitative Reachability Games</b> - CONCUR'19, Amsterdam, Netherlands. [<a href="resources/CONCUR19.pdf">Slides</a>]</li>
                         <li> <b>The Complexity of Subgame Perfect Equilibria in Quantitative Reachability Games</b> - Seminar of the Formal Methods and Verification group of the ULB, Bruxelles, Belgium.</li>
                         <li> <b>PSPACE algorithm for SPEs in quantitative reachability games</b> - Centre Fédéré en Vérification seminars, Bruxelles, Belgium. </li>
-                      </ul>
-
-                      <b> 2018 </b>
-                      <ul  style="list-style-type:bullet">
-                    <li>
-                      <b> Jeux sur graphe et objectifs d'atteignabilité </b> - Séminaires jeunes, Mons, Belgium.</li>
-                      <li><b> Constrained existence problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives </b> - GandALF'18, Saarbrücken, Germany.[<a href="resources/GANDALF18.pdf">Slides</a>]</li>
-                      <li><b> Constrained existence problem for weak subgame perfect equilibria with omega-regular Boolean objectives</b> - Highlights'18, Berlin, Germany.</li>
-                      <li><b>Constraint Problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives</b> - MOVEP'18, Cachan, France. </li>
-                      <li><b>Constraint Problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives</b> - MoRe'18, Oxford, UK. </li>
-                      <li><b>Constraint Problem for Weak Subgame Perfect Equilibria with omega-regular Boolean Objectives.</b> - GT Verification'18, Grenoble, France. </li>
                     </ul>
 
-                    <b> 2017 </b>
-                      <ul style="list-style-type:bullet">
+                <b> 2018 </b>
+                    <ul  style="list-style-type:bullet">
+                        <li><b> Jeux sur graphe et objectifs d'atteignabilité </b> - Séminaires jeunes, Mons, Belgium.</li>
+                        <li><b> Constrained existence problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives </b> - GandALF'18, Saarbrücken, Germany.[<a href="resources/GANDALF18.pdf">Slides</a>]</li>
+                        <li><b> Constrained existence problem for weak subgame perfect equilibria with omega-regular Boolean objectives</b> - Highlights'18, Berlin, Germany.</li>
+                        <li><b>Constraint Problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives</b> - MOVEP'18, Cachan, France. </li>
+                        <li><b>Constraint Problem for Weak Subgame Perfect Equilibria with ω-regular Boolean Objectives</b> - MoRe'18, Oxford, UK. </li>
+                        <li><b>Constraint Problem for Weak Subgame Perfect Equilibria with omega-regular Boolean Objectives.</b> - GT Verification'18, Grenoble, France. </li>
+                    </ul>
+
+                <b> 2017 </b>
+                    <ul style="list-style-type:bullet">
                         <li> <b>Quand l'ordonnancement de tâches rencontre la vérification ...</b> - Séminaires Infortech/Numédiart, UMONS, Mons, Belgium. </li>
-                        
-                      </ul>
-                        
-        
-                    </div><!--//item-->
-            </section><!--//section-->
-
-
-
-
-
-
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-file-image"></i> Poster sessions</h2>
-        
-                    <div class="item">
-
-                      <b> 2019 </b>
-                      <ul  style="list-style-type:bullet">
-                    <li>
-                      <b>Games played on graph with quantitative reachability objectives.</b> - Mardi des Chercheurs 2019, Mons, Belgium.
-                    </li>
                     </ul>
-                        
-        
-                    </div><!--//item-->
-            </section><!--//section-->
 
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-users" aria-hidden="true"></i> Popular scientific workshops</h2>
-        
+
+            </div><!--//item-->
+
+
+
+
+
+            <div class="section">
+                <h1> Poster sessions</h1>
                     <div class="item">
-
-                      <ul  style="list-style-type:bullet">
-                        <li>
-                      <b>A vous de jouer!</b>: Chloé Capon, Aline Goeminne, Nicolas Lecomte, James Main, Mickael Randour, Gaëtan Staquet, Alexandre Terefenko and Pierre Vandenhove - Journées Math-Sciences 2023, Mons, Belgium.
-                    </li>
-                        <li>
-                      <b>A vous de jouer!</b>: Florent Delgrange, Aline Goeminne, Marion Hallet, Quentin Meurisse, Clément Tamines, Nathan Thomasset, Mickael Randour and Kévin Van Mieghem - Journées Math-Sciences 2019, Mons, Belgium.
-                    </li>
-                    <li>
-                      <b>A vous de jouer!</b>: Aline Goeminne, Marion Hallet, Quentin Hautem and Mickael Randour - Journées Math-Sciences 2018, Mons, Belgium.
-                    </li>
-                    </ul>
-                        
-        
+                        <b> 2019 </b>
+                            <ul  style="list-style-type:bullet">
+                                <li><b>Games played on graph with quantitative reachability objectives.</b> - Mardi des Chercheurs 2019, Mons, Belgium.</li>
+                            </ul>
                     </div><!--//item-->
-            </section><!--//section-->
+            </div><!--//section-->
+
+            <div class="section">
+                <h1> Popular scientific workshops</h1>
+
+                    <div class="item">
+                        <ul  style="list-style-type:bullet">
+                            <li><b>A vous de jouer!</b>: Chloé Capon, Aline Goeminne, Nicolas Lecomte, James Main, Mickael Randour, Gaëtan Staquet, Alexandre Terefenko and Pierre Vandenhove - Journées Math-Sciences 2023, Mons, Belgium.</li>
+                            <li><b>A vous de jouer!</b>: Florent Delgrange, Aline Goeminne, Marion Hallet, Quentin Meurisse, Clément Tamines, Nathan Thomasset, Mickael Randour and Kévin Van Mieghem - Journées Math-Sciences 2019, Mons, Belgium.</li>
+                            <li><b>A vous de jouer!</b>: Aline Goeminne, Marion Hallet, Quentin Hautem and Mickael Randour - Journées Math-Sciences 2018, Mons, Belgium.</li>
+                        </ul>
+
+
+                    </div><!--//item-->
+            </div><!--//section-->
       </div>
 
     </body>
