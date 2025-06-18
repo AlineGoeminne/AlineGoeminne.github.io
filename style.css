@@ -12,6 +12,7 @@ body {
 	width: 800px;
 	padding: 10pt;
 	border-radius: 10px;
+	min-height: 93vh;
 }
 
 .section{
@@ -43,8 +44,8 @@ body {
 
 
 nav  {
-	
-	width: 500pt;
+
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -136,5 +137,10 @@ a:active {
  	font-size:20pt;
  	display: inline-block;
  	padding-right: 3pt;
- 	
+
+ }
+
+ footer {
+    text-align: center;
+    padding: 5px;
  }
