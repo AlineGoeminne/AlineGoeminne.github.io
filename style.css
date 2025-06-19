@@ -1,3 +1,9 @@
+html {
+	font-family: Georgia, "Times New Roman", serif;
+
+}
+
+
 body {
 
 	background-color: #e2e2e2;
@@ -64,7 +70,7 @@ nav ul{
 nav li {
 
 	display: inline-block;
-	padding: 20px;
+	padding: 18px;
 	font-size: 18px;
 	font-variant-caps: small-caps;
 
@@ -88,7 +94,6 @@ colRed { color: #B31A10;}
 h1 {
 
 	color: #B31A10;
-	font-family: Georgia , serif;
 	font-size: 18pt;
 	font-variant-caps: small-caps;
 }
@@ -96,7 +101,6 @@ h1 {
 h2 {
 
 	color: #084E7E;
-	font-family: Georgia , serif;
 	font-size: 15pt;
 
 }
